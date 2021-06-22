@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Lato", sans-serif;
+}
+
+html {
+    background-color: black;
+}
+
+/* ---------------------- */
+
+.navbuttons {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 6em;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.navbuttons a {
+    padding: 0.5em 0.5em 0.5em 2em;
+    text-decoration: none;
+    font-size: 15px;
+    color: transparent;
+    display: block;
+    transition: 0.3s;
+}
+
+.navbuttons a:hover {
+    color: #f1f1f1;
+}
+
+.navbuttons .closebtn {
+    position: absolute;
+    top: 0.65em;
+    left: -1.3em;
+    color: grey;
+    font-size: 1.4em;
+}
+
+.openbtn {
+    top: 0.4em;
+    left: -0.6em;
+    position: fixed;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: transparent;
+    color: grey;
+    padding: 15px 30px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: transparent;
+    color: #f1f1f1;
+}
+
+
+/* ---------------------- */
+
+.buttonLogo {
+    width: 3.5em;
+    height: 3.5em;
+    left: 3.5em;
+    top: 1.25em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/ghost.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transition: transform .2s;
+}
+
+.buttonLogo:hover {
+    width: 3.5em;
+    height: 3.5em;
+    left: 3.5em;
+    top: 1.25em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/ghostTwo.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transform: scale(1.1);
+}
+
+.buttonDonation {
+    width: 3.4em;
+    height: 3.4em;
+    left: 7em;
+    top: 1.25em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/coffee.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+}
+
+.buttonDonation:hover {
+    width: 3.4em;
+    height: 3.4em;
+    left: 7em;
+    top: 1.25em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/coffeeTwo.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    animation: shake-animation 10s;
+    transform-origin: 50% 50%;
+}
+
+@keyframes shake-animation {
+    0% {
+        transform: translate(0, 0)
+    }
+    1.78571% {
+        transform: translate(5px, 0)
+    }
+    3.57143% {
+        transform: translate(0, 0)
+    }
+    5.35714% {
+        transform: translate(5px, 0)
+    }
+    7.14286% {
+        transform: translate(0, 0)
+    }
+    8.92857% {
+        transform: translate(5px, 0)
+    }
+    10.71429% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(0, 0)
+    }
+}
+
+.buttonLetter {
+    width: 3.2em;
+    height: 3.2em;
+    left: 11.2em;
+    top: 1.5em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/letter.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+}
+
+.buttonLetter:hover {
+    width: 3.2em;
+    height: 3.2em;
+    left: 11.2em;
+    top: 1.5em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/letterThree.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+/* ------------------------- */
+
+.headOne{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(255, 255, 255, 0.767);
+    font-size: 1.01em;
+    margin-left: 1.1em;
+    margin-top:0.7em;
+}
+
+.headOne:hover{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1.01em;
+    margin-left: 1.1em;
+    margin-top:0.7;
+}
+
+
+/* ---------------------- */
+
+
+/* .mainsidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 550px;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.mainsidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.mainsidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.mainsidepanel .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 15px;
+}
+
+.openbtn {
+    top: 0;
+    right: 0;
+    position: fixed;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+} */
+
+
+/* -------------------------------  */
+
+.dropbtn {
+    background-color: #111;
+    color: #818181;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 30px;
+    top: 70px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 15px;
+    background-color: rgb(124, 120, 120);
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(59, 57, 57);
+}
+
+.dropdown-content a {
+    color: #ddd;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: #111
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    /* background-color: #060706; */
+    color: #f1f1f1;
+}
+
+
+/* ----------------------------------*/
+
+.playlist {
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 15px;
+    overflow-x: hidden;
+}
+
+
+/* ------------------------- */

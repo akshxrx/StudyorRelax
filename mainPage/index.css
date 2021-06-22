@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Playfair;
+}
+
+html {
+    background-color: #515781;
+    /* overflow: hidden; */
+}
+
+.main {
+    background-color: #515781 !important;
+}
+
+/* ------ First page------- */
+
+.headerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    margin-top: 11%;
+}
+
+.buttonHappy {
+    width: 15em;
+    height: 15em;
+    background-image: url("../Art\ stuff/main\ page\ buttons/smile.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transition: transform .2s;
+    margin-left: 2em;
+}
+
+.buttonHappy:hover {
+    width: 15em;
+    height: 15em;
+    background-image: url("../Art\ stuff/main\ page\ buttons/smileTwo.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transform: scale(1.1);
+    margin-left: 2em;
+}
+
+.buttonSad {
+    width: 15em;
+    height: 15em;
+    background-image: url("../Art\ stuff/main\ page\ buttons/sad.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transition: transform .2s;
+}
+
+.buttonSad:hover {
+    width: 15em;
+    height: 15em;
+    background-image: url("../Art\ stuff/main\ page\ buttons/sadTwo.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transform: scale(1.1);
+}
+
+/* ---------- */
+
+/* --------Sceond Page------------ */
+.headerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    margin-top:16%
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+.buttonOne,
+.buttonTwo,
+.buttonThree {
+    height: 3em;
+    width: 8em;
+    font-size: 1.7em;
+    font-weight:20em;
+    color:white;
+    border-color: white;
+
+}
+
+.buttonTwo,
+.buttonThree {
+    margin-left: 1.2em;
+}
+
+
+.container {
+    animation: transitionIn 1s;
+    background-color: transparent;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-18deg)
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0)
+    }
+}
+
+/* --------- */
+
+/* ------- Loader screen -------- */
+
+.loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #515781;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader>img {
+    width: 20%;
+    height: auto;
+}
+
+.loader.hidden {
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fadeOut {
+    0% {
+        transform: scale(1, 1);
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: scale(-2000, -2000);
+        opacity: 0;
+        transform: rotate(170deg);
+        visibility: hidden;
+    }
+}
+
+.thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.fade {
+    animation: fadeIn linear 6s;
+    -webkit-animation: fadeIn linear 6s;
+    -moz-animation: fadeIn linear 6s;
+    -o-animation: fadeIn linear 6s;
+    -ms-animation: fadeIn linear 6s;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: rotateX(-50deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        transform: rotateX(-50deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        transform: rotateX(-50deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        transform: rotateX(-50deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        transform: rotateX(-50deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
