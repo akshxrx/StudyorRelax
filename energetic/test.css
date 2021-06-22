@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -227,6 +229,24 @@ html {
 
 
 /* ---------------------- */
+
+h1 {
+	font-size: 50px;
+	margin: 0;
+}
+
+p {
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+
+/* --------------- */
+
+
+
+
 
 
 /* .mainsidepanel {
