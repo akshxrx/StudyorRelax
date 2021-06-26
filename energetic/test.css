@@ -208,6 +208,38 @@ html {
     }
 }
 
+.buttonHome {
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    opacity: .5;
+    width: 3.5em;
+    height: 3.5em;
+    left: 15.4em;
+    top: 1.3em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/home.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transition: transform .2s;
+}
+
+.buttonHome:hover {
+    opacity: 1;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    width: 3.5em;
+    height: 3.5em;
+    left: 15.4em;
+    top: 1.3em;
+    position: absolute;
+    background-image: url("../Art\ stuff/nav/home.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transform: scale(1.1);
+}
+
 
 /* ------------------------- */
 
