@@ -21,11 +21,12 @@ body{
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../energetic/energetic_pic/main-back.gif");
 }
 
 .soundwrapper{
     width: 18em;
-    padding: 1em 1em;
+    padding: 0.5em 1em;
     overflow: hidden;
     position: absolute;
     background: transparent;
@@ -46,7 +47,7 @@ cursor: pointer;
     margin-left: 2em;
     margin-top: 0.5em;
     margin-bottom: 0.4em;
-    background-image: url("../energetic_pic/thunder.png");
+    background-image: url("../energetic/energetic_pic/thunder.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -62,7 +63,7 @@ cursor: pointer;
     margin-left: 2em;
     margin-top: 0.5em;
     margin-bottom: 0.4em;
-    background-image: url("../energetic_pic/thunder.png");
+    background-image: url("../energetic/energetic_pic/thunder.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;

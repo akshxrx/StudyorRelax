@@ -73,7 +73,7 @@ html {
     left: 3.5em;
     top: 1.25em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/ghost.png");
+    background-image: url("../energetic/nav/ghost.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -86,7 +86,7 @@ html {
     left: 3.5em;
     top: 1.25em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/ghostTwo.png");
+    background-image: url("../energetic/nav/ghostTwo.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -99,7 +99,7 @@ html {
     left: 7em;
     top: 1.25em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/coffee.png");
+    background-image: url("../energetic/nav/coffee.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -111,7 +111,7 @@ html {
     left: 7em;
     top: 1.25em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/coffeeTwo.png");
+    background-image: url("../energetic/nav/coffeeTwo.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -152,7 +152,7 @@ html {
     left: 11.2em;
     top: 1.5em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/letter.png");
+    background-image: url("../energetic/nav/letter.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -164,7 +164,7 @@ html {
     left: 11.2em;
     top: 1.5em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/letterThree.png");
+    background-image: url("../energetic/nav/letterThree.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -217,7 +217,7 @@ html {
     left: 15.4em;
     top: 1.3em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/home.png");
+    background-image: url("../energetic/nav/home.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -233,7 +233,7 @@ html {
     left: 15.4em;
     top: 1.3em;
     position: absolute;
-    background-image: url("../Art\ stuff/nav/home.png");
+    background-image: url("../energetic/nav/home.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -245,11 +245,12 @@ html {
 
 .headOne{
     font-family:'Times New Roman', Times, serif;
-    color:rgba(255, 255, 255, 0.767);
+    color:rgba(218, 200, 200, 0.767);
     font-size: 1.01em;
     margin-left: 4em;
     margin-top:1em;
-    margin-top:1em;
+    margin-bottom: 1em;
+    z-index:10;
 
 }
 
@@ -259,6 +260,9 @@ html {
     font-size: 1.02em;
     margin-left: 4em;
     margin-top:1em;
+    margin-bottom: 1em;
+    z-index:10;
+
 }
 
 
