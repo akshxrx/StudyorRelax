@@ -6,6 +6,11 @@
 //     document.getElementById("mainSidepanel").style.width = "0";
 // }
 
+window.addEventListener("load", function() {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+
 function openNavbuttons() {
     document.getElementById("navButtons").style.width = "20em";
 
