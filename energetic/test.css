@@ -281,14 +281,14 @@ html {
 }
 
 .loader>img {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
 .loader.hidden {
     animation: fadeOut 2s;
     animation-fill-mode: forwards;
-    /* animation-delay: 1s; */
+    animation-delay: 1s;
 }
 
 @keyframes fadeOut {
