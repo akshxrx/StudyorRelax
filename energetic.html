@@ -10,6 +10,10 @@
     <link rel="icon" href="Art stuff/sunset.png">
     <script src="energetic/test.js "></script>
     <link rel="stylesheet" href="energetic/style.css">
+    <link rel="stylesheet" href="energetic/thunder.css">
+    <link rel="stylesheet" href="energetic/ocean.css">
+    <link rel="stylesheet" href="energetic/city.css">
+    <link rel="stylesheet" href="energetic/bird.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
@@ -23,12 +27,112 @@
                 <button onclick="window.location.href= 'https://www.animeforhumanity.org/'" class=buttonDonation></button>
                 <button onclick="window.location.href= 'https://emergencycompliment.com/'" class=buttonLetter></button>
                 <div class="headOne">
-                <span >Time Elapsed: </span><span id="minutes"> </span><span> min </span><span id="seconds"> </span><span> sec</span>
+                <span>Time Elapsed: </span><span id="minutes"> </span><span> min </span><span id="seconds"> </span><span> sec</span>
                 </div>
             </div>
+
+            <div class="soundwrapper">
+
+              <div class="thundercenter">
+                  <div class ="thundergif">
+                    <button class="btnthunder"></button>
+                  </div>
+                  <div class="thunder-details">
+                    <p class="thunder-name"></p>
+                  </div>
+
+                  <div class="thundercontrols">
+                    <div class="thunder-play-pause">
+                      <i class="thunder material-icons play">play_arrow</i>
+                    </div>
+                  </div>
+              </div>            
+              <audio id="thunder-main-audio" src=""></audio>          
+              <div class="thunder-music-list">
+              </div>
+              <div class="thunderbar">
+                  <img class="thundervolumepic" src="energetic_pic/thunder-sound.png" alt="thunderSounds">
+                  <div class="thunder-volume-slider-con">
+                    <div class="thunder-volume-slider"></div>
+                  </div>              
+              </div>
+
+              <div class="citycenter">
+                  <div class ="citygif">
+                    <button class="btncity"></button>
+                  </div>
+                  <div class="city-details">
+                    <p class="city-name"></p>
+                  </div>
+
+                  <div class="citycontrols">
+                    <div class="city-play-pause">
+                      <i class="city material-icons play">play_arrow</i>
+                    </div>
+                  </div>
+              </div>            
+              <audio id="city-main-audio" src=""></audio>          
+              <div class="city-music-list">
+              </div>
+              <div class="citybar">
+                  <img class="cityvolumepic" src="energetic_pic/city-sound.png" alt="oceanSounds">
+                  <div class="city-volume-slider-con">
+                    <div class="city-volume-slider"></div>
+                  </div>              
+              </div>
+
+              <div class="oceancenter">
+                <div class ="oceangif">
+                  <button class="btnocean"></button>
+                </div>
+                <div class="ocean-details">
+                  <p class="ocean-name"></p>
+                </div>
+
+                <div class="oceancontrols">
+                  <div class="ocean-play-pause">
+                    <i class="ocean material-icons play">play_arrow</i>
+                  </div>
+                </div>
+            </div>            
+            <audio id="ocean-main-audio" src=""></audio>          
+            <div class="ocean-music-list">
+            </div>
+            <div class="oceanbar">
+                <img class="oceanvolumepic" src="energetic_pic/ocean-sound.png" alt="oceanSounds">
+                <div class="ocean-volume-slider-con">
+                  <div class="ocean-volume-slider"></div>
+                </div> 
+            </div>
+
+            <div class="birdcenter">
+              <div class ="birdgif">
+                <button class="btnbird"></button>
+              </div>
+              <div class="bird-details">
+                <p class="bird-name"></p>
+              </div>
+
+              <div class="birdcontrols">
+                <div class="bird-play-pause">
+                  <i class="bird material-icons play">play_arrow</i>
+                </div>
+              </div>
+          </div>            
+          <audio id="bird-main-audio" src=""></audio>          
+          <div class="bird-music-list">
+          </div>
+          <div class="birdbar">
+              <img class="birdvolumepic" src="energetic_pic/bird-sound.png" alt="birdSounds">
+              <div class="bird-volume-slider-con">
+                <div class="bird-volume-slider"></div>
+              </div>              
+        </div>
+      </div>
+            
         </div>
         <button class="openbtn" onclick="openNavbuttons()"> >> </button>
-    
+  
         <div class="wrapper">
 
             <div class="song-details">
@@ -85,7 +189,7 @@
             </div>
 
           </div>
-
+          <script src="energetic/sounds.js"></script>
           <script src="energetic/songs.js"></script>
           <script src="energetic/main.js"></script>
     

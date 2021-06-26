@@ -13,7 +13,7 @@ moreMusicBtn = wrapper.querySelector("#more-music"),
 closemoreMusic = musicList.querySelector("#close");
 let e = document.querySelector('.volume-slider-con');
 let eInner = document.querySelector('.volume-slider');
-let audio = document.querySelector('audio');
+let audio = mainAudio;
 let drag = false;
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);

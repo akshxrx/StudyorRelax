@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-body {
+/* body {
     margin: 0;
     padding: 0;
     color: black;
@@ -9,7 +9,7 @@ body {
 
 html {
     background-color: black;
-}
+} */
 
 /* ---------------------- */
 
@@ -17,10 +17,10 @@ html {
     width: 0;
     position: fixed;
     z-index: 1;
-    height: 6em;
+    height: 16em;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, .4);   
     overflow: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -215,17 +215,20 @@ html {
     font-family:'Times New Roman', Times, serif;
     color:rgba(255, 255, 255, 0.767);
     font-size: 1.01em;
-    margin-left: 1.1em;
-    margin-top:0.7em;
+    margin-left: 4em;
+    margin-top:1em;
+    margin-top:1em;
+
 }
 
 .headOne:hover{
     font-family:'Times New Roman', Times, serif;
     color:white;
-    font-size: 1.01em;
-    margin-left: 1.1em;
-    margin-top:0.7;
+    font-size: 1.02em;
+    margin-left: 4em;
+    margin-top:1em;
 }
+
 
 
 /* ---------------------- */
@@ -289,7 +292,7 @@ html {
 
 /* -------------------------------  */
 
-.dropbtn {
+/* .dropbtn {
     background-color: #111;
     color: #818181;
     padding: 20px;
@@ -352,12 +355,11 @@ html {
 }
 
 .dropdown:hover .dropbtn {
-    /* background-color: #060706; */
-    color: #f1f1f1;
+    /* background-color: #060706; 
 }
 
 
-/* ----------------------------------*/
+/* ----------------------------------
 
 .playlist {
     position: absolute;
@@ -365,7 +367,7 @@ html {
     top: 250px;
     left: 15px;
     overflow-x: hidden;
-}
+} */
 
 
 /* ------------------------- */
