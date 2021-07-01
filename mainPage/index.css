@@ -27,18 +27,18 @@ html {
 .buttonHappy {
     width: 15em;
     height: 15em;
-    background-image: url("../Art\ stuff/main\ page\ buttons/smile.png");
+    background-image: url("../mainPage/main\ page\ buttons/smile.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
-    transition: transform .2s;
+    transition: transform .1s;
     margin-left: 2em;
 }
 
 .buttonHappy:hover {
     width: 15em;
     height: 15em;
-    background-image: url("../Art\ stuff/main\ page\ buttons/smileTwo.png");
+    background-image: url("../mainPage/main\ page\ buttons/smileTwo.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -49,17 +49,17 @@ html {
 .buttonSad {
     width: 15em;
     height: 15em;
-    background-image: url("../Art\ stuff/main\ page\ buttons/sad.png");
+    background-image: url("../mainPage/main\ page\ buttons/sad.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
-    transition: transform .2s;
+    transition: transform .1s;
 }
 
 .buttonSad:hover {
     width: 15em;
     height: 15em;
-    background-image: url("../Art\ stuff/main\ page\ buttons/sadTwo.png");
+    background-image: url("../mainPage/main\ page\ buttons/sadTwo.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -168,11 +168,11 @@ html {
 }
 
 .fade {
-    animation: fadeIn linear 6s;
-    -webkit-animation: fadeIn linear 6s;
-    -moz-animation: fadeIn linear 6s;
-    -o-animation: fadeIn linear 6s;
-    -ms-animation: fadeIn linear 6s;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
 }
 
 @keyframes fadeIn {

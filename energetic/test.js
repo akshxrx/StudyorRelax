@@ -1,11 +1,3 @@
-// function openNav() {
-//     document.getElementById("mainSidepanel").style.width = "1300px";
-// }
-
-// function closeNav() {
-//     document.getElementById("mainSidepanel").style.width = "0";
-// }
-
 window.addEventListener("load", function() {
     const loader = document.querySelector(".loader");
     loader.className += " hidden"; // class "loader hidden"

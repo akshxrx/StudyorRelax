@@ -219,6 +219,7 @@ function playingSong(){
     allLiTag[j].setAttribute("onclick", "clicked(this)");
   }
 }
+
 //particular li clicked function
 function clicked(element){
   let getLiIndex = element.getAttribute("li-index");

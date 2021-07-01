@@ -43,7 +43,7 @@ thunderplayPauseBtn.addEventListener("click", ()=>{
   const thunderisMusicPlay = soundwrapper.classList.contains("paused");
   // if (thunderisMusicPlay) {
   //   thunderpauseMusic();
-  //   document.body.style.backgroundImage = "url('../energetic/energetic_pic/med-back.gif')"; 
+  //   document.body.style.backgroundImage = "url('../energetic/energetic_pic/med-back.gif')";    //code for toggling the background image when pressed on the sound
   // } else {
   //   thunderplayMusic();
   //   document.body.style.backgroundImage = "url('../energetic/energetic_pic/thunder-back.gif')"; 
@@ -436,11 +436,3 @@ birdbtn.addEventListener('click', () => {
 })
 
 // ------------------------------------------------------------------------------------------
-
-// function openMusic() {
-//   document.getElementById("mysoundsbar").style.width = "20em";
-// }
-
-// function closeMusic() {
-//   document.getElementById("mysoundsbar").style.width = "0";
-// }

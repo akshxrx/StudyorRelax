@@ -1,27 +1,7 @@
-*{
-margin: 0;
-padding: 0;
-font-family: 'Times New Roman', Times, serif;
-}
-
-*::before, *::after{
-padding: 0;
-margin: 0;
-}
-
 :root{
     --white: #ffffff;
     --grey: #726e6e;
     --black: #000000;
-}
-
-body{
-    background: var(--black);
-    color: var(--white);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../energetic/energetic_pic/main-back.gif");
 }
 
 .soundwrapper{
@@ -34,7 +14,7 @@ body{
 }
 
 .soundwrapper i{
-cursor: pointer;
+    cursor: pointer;
 }
 
 /* -------------------------------------- */
@@ -114,16 +94,16 @@ font-size: 1em;
 .thunder-play-pause::before{
     position: absolute;
     content: "";
-    height: 43px;
-    width: 43px;
+    height: 30px;
+    width: 30px;
     border-radius: inherit;
     background: transparent;
 }
 
 .thunder-play-pause i{
-    height: 43px;
-    width: 43px;
-    line-height: 43px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
     text-align: center;
     background: inherit;
     background-clip: text;
@@ -179,57 +159,3 @@ font-size: 1em;
 }
 
 /* -------------------------- */
-
-/* .soundbar {
-    height: 40%;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .soundbar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .soundbar a:hover {
-    color: #f1f1f1;
-  }
-  
-  .soundbar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    padding: 10px 15px;
-    margin-right: 0;
-    border: none;
-  }
-  
-  .openbtn:hover {
-    background-color: #444;
-  }
-  
-  
-  @media screen and (max-height: 450px) {
-    .soundbar {padding-top: 15px;}
-    .soundbar a {font-size: 18px;}
-  } */
-

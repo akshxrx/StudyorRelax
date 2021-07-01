@@ -74,16 +74,16 @@
 .ocean-play-pause::before {
   position: absolute;
   content: "";
-  height: 43px;
-  width: 43px;
+  height: 30px;
+  width: 30px;
   border-radius: inherit;
   background: transparent;
 }
 
 .ocean-play-pause i {
-  height: 43px;
-  width: 43px;
-  line-height: 43px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   text-align: center;
   background: inherit;
   background-clip: text;

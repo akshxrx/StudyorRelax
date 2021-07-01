@@ -2,19 +2,33 @@
 
 https://akshxrx.github.io/AnimeForHumanity/
 
+[If you copy anything remember to change everything, like the name, classname and function name]
 
-cropping gif:
-https://ezgif.com/crop/ezgif-2-3a59bbacd474.gif
+The {index.html} file corresponds to {index.js} & {index.css}. This is the first page.
+The {mood.html} file correspond to {index.css}. This is the sceond page.
+These file reside {mainPage} folder.
+You will also see a {sunset.png} in this folder, this is the icon at the corner of the tab.
 
-width:640px  height:299px
+The {energetic.html} is the energetic site of the three buttons.
+All file connected to this html resides under energetic.
 
-      / \
-both works well
-      
-      \ /
+    The background
+        > {back.css}
 
-width: 640px, height:359px
+    The nav collapsible window and buttons
+        > {test.css}
+        > {test.js}
 
+    The nature sounds
+        > {thunder.css}     
+        > {ocean.css}
+        > {city.css}
+        > {bird.css}
+        > {sounds.js}
 
+    The songs
+        > {style.css}
+        > {songs.js}      // all the songs go into here
+        > {main.js}       // all the coding for the songs
 
-
+You will also see a {sunset.png} in the nav-folder, this is the icon at the corner of the tab.
