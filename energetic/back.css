@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+:root{
+    --white: #ffffff;
+    --grey: #726e6e;
+    --black: #000000;
+}
 
 body{
     background: var(--black);
