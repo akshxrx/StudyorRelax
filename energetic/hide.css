@@ -1,0 +1,26 @@
+.designSound{
+    height:10em;
+    width:20em;
+    background-color: transparent;
+    position:absolute;
+    margin-top: 3.9em;
+    margin-left: 1em;
+    z-index:10;
+}
+
+.designBack{
+    height:7.3em;
+    width:auto;
+    background-color: transparent;
+    position:absolute;
+    margin-top: 3.6em;
+    z-index:1;
+}
+
+.designList{
+    background-color: transparent;
+    position:absolute;
+    margin-top: 3.9em;
+    right:2em;
+    z-index:1;
+}

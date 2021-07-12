@@ -9,7 +9,7 @@
 
 
 .wrapper{
-width: 20em;
+width: 25em;
 height:auto;
 padding: 20em 1.5em 1.5em;
 overflow: hidden;
@@ -46,7 +46,7 @@ font-size: 1.6em;
 }
 .song-details .artist{
 font-size: 1.2em;
-line-height: 1em;
+line-height: 0.1em;
 }
 
 

@@ -34,7 +34,7 @@
 
 .city-details {
   text-align: left;
-  margin: 0.3em 0 0.3em;
+  margin: 0.3em 0 0em;
   justify-content: left;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .citycontrols {
-  margin: 0.9em 0 0;
+  margin: 1em 0 0;
   margin-left: 0.8em;
 }
 .citycontrols i {
@@ -113,6 +113,7 @@
   height: 0.8em;
   margin-right: 0.5em;
   margin-left: 0.8em;
+  background: transparent;
 }
 
 .city-volume-slider-con {

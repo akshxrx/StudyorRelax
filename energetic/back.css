@@ -17,9 +17,10 @@
 
 body{
     background: var(--black);
-    color: var(--white);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../energetic/energetic_pic/main-back.gif");
+    color: var(--white) !important;
+    overflow: hidden !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-image: url('../energetic/energetic_pic/main-back.gif');
+    font-family: 'Times New Roman', Times, serif;
 }

@@ -6,16 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="icon" href="energetic/nav/sunset.png">
-    <link rel="stylesheet" href="energetic/test.css">
     <link rel="stylesheet" href="energetic/back.css">
     <link rel="stylesheet" href="energetic/style.css">
     <link rel="stylesheet" href="energetic/thunder.css">
     <link rel="stylesheet" href="energetic/ocean.css">
     <link rel="stylesheet" href="energetic/city.css">
     <link rel="stylesheet" href="energetic/bird.css">
+    <link rel="stylesheet" href="energetic/nav.css">
+    <link rel="stylesheet" href="energetic/hide.css">
+    <link rel="stylesheet" href="energetic/background.css">
+    <link rel="stylesheet" href="energetic/clock.css">
+    <link rel="stylesheet" href="energetic/todo.css">
+    <link rel="stylesheet" href="energetic/loader.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="energetic/test.js "></script>
 </head>
 
 <body>
@@ -28,123 +35,210 @@
           </div>
 
           <!-- this potion is a temporary collapsible window with nav bar functions and nature sounds -->
-
-          <div id="navButtons" class="navbuttons">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNavbuttons()"> >> </a>
-                <div class="bar">
-                    <button onclick="window.location.href= 'https://www.animeforhumanity.org/'" class=buttonLogo></button>
-                    <button onclick="window.location.href= 'https://www.animeforhumanity.org/'" class=buttonDonation></button>
-                    <button onclick="window.location.href= 'https://emergencycompliment.com/'" class=buttonLetter></button>
-                    <button onclick="window.location.href= 'mood.html'" class=buttonHome></button>
-                    <div class="headOne">
-                    <span>Time Elapsed: </span><span id="minutes"> </span><span> min </span><span id="seconds"> </span><span> sec</span>
+          <!-- this potion is the nav -->
+          <div class="nav">
+            <button class="buttonS" title="Sounds" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
+            <button class="buttonB" title="Backgrounds" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"></button>
+            <div id="navButtons" class="navbuttons">
+                <div class="content">
+                    <div class="counter"></div>
+                    <input id="seconds" type="number" placeholder="Seconds...">
+                    <div class="buttons">
+                        <button class="btn start" id="start" value="1" onclick="check(this)">Start</button>
+                        <button class="btn start" id="continue" value="1" onclick="check(this)">Continue</button>
+                        <button class="btn stop" id="stop" value="0" onclick="check(this)">Stop</button>
+                        <button class="btn start" id="submit" onclick="subm()">Submit</button>
                     </div>
                 </div>
-
-                <!-- this potion is the multiple nature sounds -->
-
-                <div class="soundwrapper">
-                  <div class="thundercenter">
-                      <div class ="thundergif">
-                        <button class="btnthunder"></button>
-                      </div>
-                      <div class="thunder-details">
-                        <p class="thunder-name"></p>
-                      </div>
-
-                      <div class="thundercontrols">
-                        <div class="thunder-play-pause">
-                          <i class="thunder material-icons play">play_arrow</i>
-                        </div>
-                      </div>
-                  </div>            
-                  <audio id="thunder-main-audio" src=""></audio>          
-                  <div class="thunder-music-list">
-                  </div>
-                  <div class="thunderbar">
-                      <img class="thundervolumepic" src="../AnimeForHumanity/energetic/energetic_pic/thunder-sound.png" alt="thunderSounds">
-                      <div class="thunder-volume-slider-con">
-                        <div class="thunder-volume-slider"></div>
-                      </div>              
-                  </div>
-
-                  <div class="citycenter">
-                      <div class ="citygif">
-                        <button class="btncity"></button>
-                      </div>
-                      <div class="city-details">
-                        <p class="city-name"></p>
-                      </div>
-
-                      <div class="citycontrols">
-                        <div class="city-play-pause">
-                          <i class="city material-icons play">play_arrow</i>
-                        </div>
-                      </div>
-                  </div>            
-                  <audio id="city-main-audio" src=""></audio>          
-                  <div class="city-music-list">
-                  </div>
-                  <div class="citybar">
-                      <img class="cityvolumepic" src="../AnimeForHumanity/energetic/energetic_pic/city-sound.png" alt="oceanSounds">
-                      <div class="city-volume-slider-con">
-                        <div class="city-volume-slider"></div>
-                      </div>              
-                  </div>
-
-                  <div class="oceancenter">
-                      <div class ="oceangif">
-                        <button class="btnocean"></button>
-                      </div>
-                      <div class="ocean-details">
-                        <p class="ocean-name"></p>
-                      </div>
-
-                      <div class="oceancontrols">
-                        <div class="ocean-play-pause">
-                          <i class="ocean material-icons play">play_arrow</i>
-                        </div>
-                      </div>
-                  </div>            
-                  <audio id="ocean-main-audio" src=""></audio>          
-                  <div class="ocean-music-list">
-                  </div>
-                  <div class="oceanbar">
-                      <img class="oceanvolumepic" src="../AnimeForHumanity/energetic/energetic_pic/ocean-sound.png" alt="oceanSounds">
-                      <div class="ocean-volume-slider-con">
-                        <div class="ocean-volume-slider"></div>
-                      </div> 
-                  </div>
-
-                  <div class="birdcenter">
-                      <div class ="birdgif">
-                        <button class="btnbird"></button>
-                      </div>
-                      <div class="bird-details">
-                        <p class="bird-name"></p>
-                      </div>
-
-                      <div class="birdcontrols">
-                        <div class="bird-play-pause">
-                          <i class="bird material-icons play">play_arrow</i>
-                        </div>
-                      </div>
-                  </div>            
-                  <audio id="bird-main-audio" src=""></audio>          
-                  <div class="bird-music-list">
-                  </div>
-                  <div class="birdbar">
-                      <img class="birdvolumepic" src="../AnimeForHumanity/energetic/energetic_pic/bird-sound.png" alt="birdSounds">
-                      <div class="bird-volume-slider-con">
-                        <div class="bird-volume-slider"></div>
-                      </div>              
-                  </div>
-
+                <iframe src="https://free.timeanddate.com/clock/i7vz0vjn/n250/fn15/fs17/fceee/tct/pct/tt0/tw0/tm1/td2/th2/ta1/tb1" frameborder="0" width="242" height="22" allowtransparency="true" class="timeOne"></iframe>
+                <div class="navC">
+                    <div class="headOne">
+                        <a class="closebtn" onclick="closeNavbuttons()"> x </a>                   
+                        <span>Time Elapsed: </span><span id="minutes"> </span><span> min </span><span id="sec"> </span><span> sec </span>
+                    </div>
                 </div>
-              
-          </div>
-          <button class="openbtn" onclick="openNavbuttons()"> >> </button>
-  
+            </div>
+            <button class="buttonC" title="Timer" onclick="openNavbuttons()"></button>
+            <button onclick="window.location.href= 'https://emergencycompliment.com/'" class="buttonLetter" title="Letter" ></button>
+            <div class="right">
+                <!-- <button onClick="toggleFullscreen()" class="buttonFull" title="Full Screen"></button> -->
+                <button onclick="window.location.href= 'mood.html'" class="buttonHome" title="Home"></button>
+                <button onclick="window.location.href= 'https://www.animeforhumanity.org/'" class="buttonLogo" title="Anime for Humanity"></button>
+                <button onclick="window.location.href= 'https://www.animeforhumanity.org/'" class="buttonCoffee" title="Buy us coffee"></button>
+                <button class="buttonL" title="To Do" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"></button>
+            </div>
+         </div>
+   
+         <div class="collapse multi-collapse designSound" id="multiCollapseExample1">                
+            <div class="soundwrapper">
+                <div class="thundercenter">
+                    <div class ="thundergif">
+                        <button class="btnthunder"></button>
+                    </div>
+                    <div class="thunder-details">
+                        <p class="thunder-name"></p>
+                    </div>
+
+                    <div class="thundercontrols">
+                        <div class="thunder-play-pause">
+                        <i class="thunder material-icons play">play_arrow</i>
+                        </div>
+                    </div>
+                </div>            
+                <audio id="thunder-main-audio" src=""></audio>          
+                <div class="thunder-music-list">
+                </div>
+                <div class="thunderbar">
+                    <img class="thundervolumepic" src="../navBar/energetic/energetic_pic/thunder-sound.png" alt="thunderSounds">
+                    <div class="thunder-volume-slider-con">
+                        <div class="thunder-volume-slider"></div>
+                    </div>              
+                </div>
+                <div class="citycenter">
+                    <div class ="citygif">
+                        <button class="btncity"></button>
+                    </div>
+                    <div class="city-details">
+                        <p class="city-name"></p>
+                    </div>
+
+                    <div class="citycontrols">
+                        <div class="city-play-pause">
+                        <i class="city material-icons play">play_arrow</i>
+                        </div>
+                    </div>
+                </div>            
+                <audio id="city-main-audio" src=""></audio>          
+                <div class="city-music-list">
+                </div>
+                <div class="citybar">
+                    <img class="cityvolumepic" src="../navBar/energetic/energetic_pic/city-sound.png" alt="oceanSounds">
+                    <div class="city-volume-slider-con">
+                        <div class="city-volume-slider"></div>
+                    </div>              
+                </div>
+                <div class="oceancenter">
+                    <div class ="oceangif">
+                        <button class="btnocean"></button>
+                    </div>
+                    <div class="ocean-details">
+                        <p class="ocean-name"></p>
+                    </div>
+
+                    <div class="oceancontrols">
+                        <div class="ocean-play-pause">
+                        <i class="ocean material-icons play">play_arrow</i>
+                        </div>
+                    </div>
+                </div>            
+                <audio id="ocean-main-audio" src=""></audio>          
+                <div class="ocean-music-list">
+                </div>
+                <div class="oceanbar">
+                    <img class="oceanvolumepic" src="../navBar/energetic/energetic_pic/ocean-sound.png" alt="oceanSounds">
+                    <div class="ocean-volume-slider-con">
+                        <div class="ocean-volume-slider"></div>
+                    </div> 
+                </div>
+                <div class="birdcenter">
+                    <div class ="birdgif">
+                        <button class="btnbird"></button>
+                    </div>
+                    <div class="bird-details">
+                        <p class="bird-name"></p>
+                    </div>
+
+                    <div class="birdcontrols">
+                        <div class="bird-play-pause">
+                        <i class="bird material-icons play">play_arrow</i>
+                        </div>
+                    </div>
+                </div>            
+                <audio id="bird-main-audio" src=""></audio>          
+                <div class="bird-music-list">
+                </div>
+                <div class="birdbar">
+                    <img class="birdvolumepic" src="../navBar/energetic/energetic_pic/bird-sound.png" alt="birdSounds">
+                    <div class="bird-volume-slider-con">
+                        <div class="bird-volume-slider"></div>
+                    </div>              
+                </div>
+            </div>
+         </div>
+
+         <div class="collapse multi-collapse designBack" id="multiCollapseExample2">                
+            <div class = "background-options"> 
+                <label for = "sunset" id = "sunset-label"> 
+                    <button class = "background" id = "sunset" name = "sunset" ></button>
+                </label> 
+                <label for = "youName">
+                    <button class = "background" id = "youName" name = "youName" ></button>
+                </label>
+            </div>
+            <div class = "background-optionsTwo"> 
+                <label for = "cherry">
+                    <button class = "background" id = "cherry" name = "cherry" onclick = ""></button>
+                </label>     
+                <label for = "night">
+                    <button class = "background" id = "night" name = "night"  onclick = ""></button>
+                </label>
+            </div> 
+         </div>
+        
+         <div class="elfsight-app-b6aabadb-c078-4f01-a97c-cc346bb0b718"></div>
+        
+         <div class="collapse multi-collapse designList" id="multiCollapseExample3">
+            <div class="square-wrapper"> 
+                <div class="all-tasks">
+                <h2 class="task-list-title">My lists</h2>
+                <ul class="task-list" data-lists></ul>   
+                <form action="" data-new-list-form>
+                    <input 
+                    type="text"
+                    class="new list"
+                    data-new-list-input
+                    placeholder="new list name"
+                    aria-label="new list name"/>
+                    <button class="btn create" aria-label="create new list">+</button>
+                </form>
+                </div>
+                <div class="todo-list" data-list-display-container>
+                <div class="todo-header">
+                    <h2 class="list-title" data-list-title> List ...... </h2>
+                    <p class="task-count" data-list-count>0 tasks remaining</p>
+                </div>
+                <div class="todo-body">
+                    <div class="tasks" data-tasks></div>      
+                    <div class="new-task-creator">
+                        <form action="" data-new-task-form>
+                            <input 
+                            type="text"
+                            data-new-task-input
+                            class="new task"
+                            placeholder="new task name"
+                            aria-label="new task name"
+                            />
+                            <button class="btn create" aria-label="create new task">+</button>
+                        </form>
+                    </div>
+                    <div class="delete-stuff">
+                    <button class="btn delete done" data-clear-complete-tasks-button>Clear completed tasks</button>
+                    <button class="btn delete dtwo" data-delete-list-button>Delete list</button>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <template id="task-template">
+                <div class="task">
+                    <input type="checkbox" />
+                    <label>
+                    <span class="custom-checkbox"></span>
+                    </label>
+                </div>
+            </template>
+            </div>
+         </div>
+                 
            <!-- The music goes here -->
 
           <div class="wrapper">
@@ -198,9 +292,18 @@
                 </ul>
               </div>
           </div>
+
+
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+          <script src = "energetic/todo.js"></script>
+          <script src = "energetic/background.js"></script>
+          <script src="energetic/sounds.js"></script>
+          <script src="energetic/clock.js"></script>  
           <script src="energetic/sounds.js"></script>
           <script src="energetic/songs.js"></script>
           <script src="energetic/main.js"></script>
+          <script src="energetic/loader.js"></script>
+
     
     </div>
 </body>

@@ -6,11 +6,9 @@
 
 .soundwrapper{
     width: 18em;
-    padding: 0.5em 1em;
     overflow: hidden;
     position: absolute;
     background: transparent;
-    top: 5em;
 }
 
 .soundwrapper i{
@@ -54,7 +52,7 @@
 
 .thunder-details{
     text-align: left;
-    margin: 0.5em 0 0.3em;
+    margin: 0.5em 0 0em;
     justify-content: left;
 }
 
@@ -117,7 +115,7 @@ font-size: 1em;
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
 }
 
 /* ------------------- */
@@ -136,6 +134,7 @@ font-size: 1em;
     height: 0.8em;
     margin-right: 0.5em;
     margin-left: 0.8em;
+    background: transparent;
 }
 
 .thunder-volume-slider-con{

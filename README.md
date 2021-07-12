@@ -32,3 +32,6 @@ All file connected to this html resides under energetic.
         > {main.js}       // all the coding for the songs
 
 You will also see a {sunset.png} in the nav-folder, this is the icon at the corner of the tab.
+
+
+redo style of music (maybe)
