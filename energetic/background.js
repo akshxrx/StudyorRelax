@@ -1,8 +1,10 @@
 
 let sunsetButton = document.querySelector('#sunset');
 let youNamebutton = document.querySelector('#youName'); 
+let bloodbutton = document.querySelector('#blood'); 
 let cherrybutton = document.querySelector('#cherry'); 
 let nightbutton = document.querySelector('#night'); 
+let blackbutton = document.querySelector('#black'); 
 
 sunsetButton.addEventListener('click', () => {
     document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/sunset.gif')"; 
@@ -12,12 +14,20 @@ youNamebutton.addEventListener('click', () => {
     document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic//backgrounds/youName.gif')"; 
 })
 
+bloodbutton.addEventListener('click', () => {
+    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic//backgrounds/blood.gif')"; 
+})
+
 cherrybutton.addEventListener('click', () => {
     document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/cherry.gif')"; 
 })
 
 nightbutton.addEventListener('click', () => {
     document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/night.gif')"; 
+})
+
+blackbutton.addEventListener('click', () => {
+    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/weathering.gif')"; 
 })
 
 let fullS = document.getElementsByClassName("buttonFull");
@@ -39,7 +49,13 @@ function toggleFullscreen() {
 }
 
 document.addEventListener("dblclick", () => {
-    document.documentElement.requestFullscreen().catch((e) => {
-        console.log(e);
-    });
+    if (getFullscreenElement()) {
+        document.exitFullscreen();
+    }
+    else {
+        document.documentElement.requestFullscreen().catch((e) => {
+            console.log(e);
+        });
+    }
+    
 });

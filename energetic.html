@@ -169,18 +169,24 @@
          <div class="collapse multi-collapse designBack" id="multiCollapseExample2">                
             <div class = "background-options"> 
                 <label for = "sunset" id = "sunset-label"> 
-                    <button class = "background" id = "sunset" name = "sunset" ></button>
+                    <button class = "background" id = "sunset" name = "sunset" title = "Howl's Moving Castle"></button>
                 </label> 
                 <label for = "youName">
-                    <button class = "background" id = "youName" name = "youName" ></button>
+                    <button class = "background" id = "youName" name = "youName" title = "Your Name"></button>
                 </label>
+                <label for = "blood" id = "blood-label"> 
+                    <button class = "background" id = "blood" name = "blood" title = "Blood Blockade Battlefront"></button>
+                </label> 
             </div>
             <div class = "background-optionsTwo"> 
                 <label for = "cherry">
-                    <button class = "background" id = "cherry" name = "cherry" onclick = ""></button>
+                    <button class = "background" id = "cherry" name = "cherry" onclick = "" title = "My Neighbor Totoro"></button>
                 </label>     
                 <label for = "night">
-                    <button class = "background" id = "night" name = "night"  onclick = ""></button>
+                    <button class = "background" id = "night" name = "night"  onclick = "" title = "Cat Returns"></button>
+                </label>
+                <label for = "black">
+                    <button class = "background" id = "black" name = "black"  onclick = "" title = "Violet Evergarden"></button>
                 </label>
             </div> 
          </div>
@@ -255,17 +261,15 @@
                 <p class="artist"></p>
                 </div> 
               </div>
-
               <div class="progress-area">
                 <div class="progress-bar">
                   <audio id="main-audio" src=""></audio>
                 </div>
                 <div class="song-timer">
-                  <span class="current-time">0:00</span>
-                  <span class="max-duration">0:00</span>
+                  <!-- <span class="current-time">0:00</span>
+                  <span class="max-duration">0:00</span> -->
                 </div>
               </div>
-
               <div class="controls">
                 <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
                 <i id="prev" class="material-icons">skip_previous</i>
@@ -278,7 +282,6 @@
                   <div class="volume-slider"></div>
                   </div>
               </div>
-
               <div class="music-list">
                 <div class="header">
                   <div class="row">
@@ -295,13 +298,12 @@
 
 
           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+          <script src="energetic/songs.js"></script>
+          <script src="energetic/song-edit.js"></script>
           <script src = "energetic/todo.js"></script>
           <script src = "energetic/background.js"></script>
-          <script src="energetic/sounds.js"></script>
           <script src="energetic/clock.js"></script>  
           <script src="energetic/sounds.js"></script>
-          <script src="energetic/songs.js"></script>
-          <script src="energetic/main.js"></script>
           <script src="energetic/loader.js"></script>
 
     

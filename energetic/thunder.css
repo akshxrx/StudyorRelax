@@ -5,7 +5,7 @@
 }
 
 .soundwrapper{
-    width: 18em;
+    width: 20em;
     overflow: hidden;
     position: absolute;
     background: transparent;
@@ -19,8 +19,8 @@
 .btnthunder {
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
-    width: 1.4em;
-    height: 1.4em;
+    width: 1.5em;
+    height: 1.5em;
     margin-right: 0.5em;
     margin-left: 2em;
     margin-top: 0.5em;
@@ -35,8 +35,8 @@
 .btnthunder:hover {
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.6em;
+    height: 1.6em;
     margin-right: 0.5em;
     margin-left: 2em;
     margin-top: 0.5em;
@@ -60,11 +60,11 @@
 color: var(--white);
 }
 .thunder-details .thunder-name{
-font-size: 1em;
+font-size: 1.15em;
 }
 
 .thundercontrols{
-    margin: 1.1em 0 0;
+    margin: 1.4em 0 0;
     margin-left: 0.8em;
 }
 .thundercontrols i{

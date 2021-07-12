@@ -2,8 +2,8 @@
 .btnocean {
   -webkit-filter: grayscale(1) invert(1);
   filter: grayscale(1) invert(1);
-  width: 1.4em;
-  height: 1.4em;
+  width: 1.5em;
+  height: 1.5em;
   margin-right: 0.5em;
   margin-left: 2em;
   margin-top: 0.2em;
@@ -18,8 +18,8 @@
 .btnocean:hover {
   -webkit-filter: grayscale(1) invert(1);
   filter: grayscale(1) invert(1);
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.6em;
+  height: 1.6em;
   margin-right: 0.5em;
   margin-left: 2em;
   margin-top: 0.2em;
@@ -42,11 +42,11 @@
   color: var(--white);
 }
 .ocean-details .ocean-name {
-  font-size: 1em;
+  font-size: 1.15em;
 }
 
 .oceancontrols {
-  margin: 0.9em 0 0;
+  margin: 1.2em 0 0;
   margin-left: 0.8em;
 }
 .oceancontrols i {
