@@ -18,14 +18,14 @@
 }
 
 .loader>img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
 .loader.hidden {
     animation: fadeOut 5s;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 100s;
 }
 
 @keyframes fadeOut {
