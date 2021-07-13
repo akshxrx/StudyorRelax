@@ -1,10 +1,42 @@
-.buttonS {
+.buttonHome {
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
     opacity: .5;
     width: 2.8em;
     height: 2.8em;
     left: 1.5em;
+    top: 1.25em;
+    position: absolute;
+    background-image: url("../energetic/icon/home.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transition: transform .2s;
+}
+
+.buttonHome:hover {
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    opacity: 1;
+    width: 2.8em;
+    height: 2.8em;
+    left: 1.5em;
+    top: 1.25em;
+    position: absolute;
+    background-image: url("../energetic/icon/home.png");
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    transform: scale(1.1);
+}
+
+.buttonS {
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    opacity: .5;
+    width: 2.8em;
+    height: 2.8em;
+    left: 4.15em;
     top: 1.25em;
     position: absolute;
     background-image: url("../energetic/icon/s.png");
@@ -20,7 +52,7 @@
     opacity: 1;
     width: 2.8em;
     height: 2.8em;
-    left: 1.5em;
+    left: 4.15em;
     top: 1.25em;
     position: absolute;
     background-image: url("../energetic/icon/s.png");
@@ -36,7 +68,7 @@
     opacity: .5;
     width: 2.8em;
     height: 2.8em;
-    left: 4.1em;
+    left: 6.5em;
     top: 1.25em;
     position: absolute;
     background-image: url("../energetic/icon/b.png");
@@ -52,7 +84,7 @@
     opacity: 1;
     width: 2.8em;
     height: 2.8em;
-    left: 4.1em;
+    left: 6.5em;
     top: 1.25em;
     position: absolute;
     background-image: url("../energetic/icon/b.png");
@@ -66,7 +98,7 @@
     width: 0;
     position: fixed;
     z-index: 1;
-    height: 12.25em;
+    height: 5.14em;
     bottom: 0;
     right: 0;
     background-color: transparent;   
@@ -103,7 +135,7 @@
     opacity: .5;
     width: 2.8em;
     height: 2.8em;
-    left: 7em;
+    left: 9.35em;
     top: 1.25em;
     position: absolute;
     background-image: url("../energetic/icon/clock.png");
@@ -118,7 +150,7 @@
     opacity: 1;
     width: 2.8em;
     height: 2.8em;
-    left: 7em;
+    left: 9.35em;
     top: 1.25em;
     position: absolute;
     background-image: url("../energetic/icon/clockTwo.png");
@@ -133,14 +165,21 @@
     justify-content: left;
 }
 
+/* -------------------------------------------------------------------------------- */
+.right {
+    display: flex;
+    margin-top: 1.25em;
+    flex-direction: right;
+}
+
 .buttonLetter {
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
     opacity: .5;
-    width: 3.15em;
-    height: 3.15em;
-    left: 10.45em;
-    top: 1.2em;
+    width: 3em;
+    height: 3em;
+    right: 12em;
+    top: 1.6em;
     position: absolute;
     background-image: url("../energetic/icon/letter.png");
     background-size: cover;
@@ -154,8 +193,8 @@
     opacity: 1;
     width: 3em;
     height: 3em;
-    left: 10.45em;
-    top: 0.8em;
+    right: 12em;
+    top: 1.6em;
     position: absolute;
     background-image: url("../energetic/icon/letterTwo.png");
     background-size: cover;
@@ -201,52 +240,15 @@
     }
 }
 
-/* -------------------------------------------------------------------------------- */
-.right {
-    display: flex;
-    margin-top: 1.25em;
-    flex-direction: right;
-}
-
-.buttonHome {
-    -webkit-filter: grayscale(1) invert(1);
-    filter: grayscale(1) invert(1);
-    opacity: .5;
-    width: 3.3em;
-    height: 3.3em;
-    right: 11.7em;
-    position: absolute;
-    background-image: url("../energetic/icon/home.png");
-    background-size: cover;
-    background-color: transparent;
-    border: 0px;
-    transition: transform .2s;
-}
-
-.buttonHome:hover {
-    -webkit-filter: grayscale(1) invert(1);
-    filter: grayscale(1) invert(1);
-    opacity: 1;
-    width: 3.3em;
-    height: 3.3em;
-    right: 11.7em;
-    position: absolute;
-    background-image: url("../energetic/icon/home.png");
-    background-size: cover;
-    background-color: transparent;
-    border: 0px;
-    transform: scale(1.1);
-}
-
 .buttonLogo {
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
     opacity: .5;
-    width: 3.3em;
-    height: 3.3em;
-    right: 8.35em;
+    width: 3em;
+    height: 3em;
+    right: 8.5em;
     position: absolute;
-    background-image: url("../energetic/icon/ghost.png");
+    background-image: url("../energetic/icon/download.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
@@ -257,15 +259,34 @@
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
     opacity: 1;
-    width: 3.3em;
-    height: 3.3em;
-    right: 8.35em;
+    width: 3em;
+    height: 3em;
+    right: 8.5em;
     position: absolute;
-    background-image: url("../energetic/icon/ghost.png");
+    background-image: url("../energetic/icon/download.png");
     background-size: cover;
     background-color: transparent;
     border: 0px;
-    transform: scale(1.1);
+    animation: down 0.8s;
+    animation-iteration-count: 1;
+}
+
+@keyframes down {
+    0% {
+        transform: translate(0em, 0em);
+    }
+    25% {
+        transform: translate(0em, -0.5em);
+    }
+    50% {
+        transform: translate(0em, 0.8em);
+    }
+    75% {
+        transform: translate(0em, -0.5em);
+    }
+    100% {
+        transform: translate(0em, 0em);
+    }
 }
 
 .buttonCoffee {
@@ -274,7 +295,7 @@
     opacity: .5;
     width: 3.4em;
     height: 3.4em;
-    right: 5.2em;
+    right: 5.1em;
     position: absolute;
     background-image: url("../energetic/icon/coffee.png");
     background-size: cover;
@@ -288,7 +309,7 @@
     opacity: 1;
     width: 3.4em;
     height: 3.4em;
-    right: 5.2em;
+    right: 5.1em;
     position: absolute;
     background-image: url("../energetic/icon/coffee.png");
     background-size: cover;

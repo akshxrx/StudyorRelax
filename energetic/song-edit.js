@@ -100,7 +100,7 @@ mainAudio.addEventListener("timeupdate", (e)=>{
     if(totalSec < 10){ //if sec is less than 10 then add 0 before it
       totalSec = `0${totalSec}`;
     }
-    musicDuartion.innerText = `${totalMin}:${totalSec}`;
+    // musicDuartion.innerText = `${totalMin}:${totalSec}`;
   });
   // update playing song current time
   let currentMin = Math.floor(currentTime / 60);
@@ -108,7 +108,7 @@ mainAudio.addEventListener("timeupdate", (e)=>{
   if(currentSec < 10){ //if sec is less than 10 then add 0 before it
     currentSec = `0${currentSec}`;
   }
-  musicCurrentTime.innerText = `${currentMin}:${currentSec}`;
+  // musicCurrentTime.innerText = `${currentMin}:${currentSec}`;
 
 });
 // update playing song currentTime on according to the progress bar width

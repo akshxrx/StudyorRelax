@@ -1,26 +1,23 @@
 .background-options{
-    width : 100%; 
-    height : 100%; 
-
     display : flex; 
     justify-content: left;
     align-content: left;
     margin-top:0.6em;
-    margin-left:22em;
+    margin-left:0.7em;
 }
 
 .background-optionsTwo{
     display : flex; 
     justify-content: left;
     align-content: left;
-    margin-top:1.7em;
-    margin-left:22em;
+    margin-top:0.4em;
+    margin-left:0.7em;
 }
 
 .background{
     margin : 0em 0.55em 0; 
     width : 14em; 
-    height : 8em; 
+    height : 9em; 
     cursor: pointer;
 }
 

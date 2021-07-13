@@ -3,7 +3,10 @@ window.addEventListener("load", function() {
     loader.className += " hidden"; // class "loader hidden"
 });
 
-
+function openTab(th)
+{
+    window.open(th.name,'_blank');
+}
 
 
 

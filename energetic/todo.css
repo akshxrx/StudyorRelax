@@ -57,7 +57,7 @@
   }
   
   .done{
-    margin-left: 0.4em;
+    margin-left: 0.5em;
   }
 
   .dtwo{
@@ -71,8 +71,11 @@
     font-size: 1.2rem;
     transition: color 200ms;
     margin-top: 1em;
-    padding: 1.5em 0em 1em;
+    padding: 0.5em 0.5em 1em;
     position: absolute;
+    height: 2.5em;
+    width: auto;
+    background-color: rgba(23, 23, 23, 0.687);
   }
   
   .btn.delete:hover {

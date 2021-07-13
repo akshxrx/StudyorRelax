@@ -9,13 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="icon" href="energetic/nav/sunset.png">
+    <link rel="icon" href="energetic/icon/sunset.png">
     <link rel="stylesheet" href="energetic/back.css">
     <link rel="stylesheet" href="energetic/style.css">
-    <link rel="stylesheet" href="energetic/thunder.css">
-    <link rel="stylesheet" href="energetic/ocean.css">
-    <link rel="stylesheet" href="energetic/city.css">
-    <link rel="stylesheet" href="energetic/bird.css">
     <link rel="stylesheet" href="energetic/nav.css">
     <link rel="stylesheet" href="energetic/hide.css">
     <link rel="stylesheet" href="energetic/background.css">
@@ -31,139 +27,36 @@
           <!-- this is the loading image of the page -->
 
           <div class="loader" id="loader">
-            <img src="../AnimeForHumanity/energetic/nav/loader.gif" alt="" />
+            <img src="../AnimeForHumanity/energetic/icon/loader.gif" alt="" />
           </div>
 
           <!-- this potion is a temporary collapsible window with nav bar functions and nature sounds -->
           <!-- this potion is the nav -->
           <div class="nav">
+            <button onclick="window.location.href= 'mood.html'" class="buttonHome" title="Home"></button>
             <button class="buttonS" title="Sounds" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
-            <button class="buttonB" title="Backgrounds" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"></button>
+            <button class="buttonB" title="Backgrounds" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"></button>
             <div id="navButtons" class="navbuttons">
-                <div class="content">
-                    <div class="counter"></div>
-                    <input id="seconds" type="number" placeholder="Seconds...">
-                    <div class="buttons">
-                        <button class="btn start" id="start" value="1" onclick="check(this)">Start</button>
-                        <button class="btn start" id="continue" value="1" onclick="check(this)">Continue</button>
-                        <button class="btn stop" id="stop" value="0" onclick="check(this)">Stop</button>
-                        <button class="btn start" id="submit" onclick="subm()">Submit</button>
-                    </div>
-                </div>
-                <iframe src="https://free.timeanddate.com/clock/i7vz0vjn/n250/fn15/fs17/fceee/tct/pct/tt0/tw0/tm1/td2/th2/ta1/tb1" frameborder="0" width="242" height="22" allowtransparency="true" class="timeOne"></iframe>
                 <div class="navC">
                     <div class="headOne">
-                        <a class="closebtn" onclick="closeNavbuttons()"> x </a>                   
+                        <div class="dbl"> double click for full screen </div>                   
+                        <a class="closebtn" onclick="closeNavbuttons()"> x </a>
                         <span>Time Elapsed: </span><span id="minutes"> </span><span> min </span><span id="sec"> </span><span> sec </span>
                     </div>
                 </div>
             </div>
-            <button class="buttonC" title="Timer" onclick="openNavbuttons()"></button>
-            <button onclick="window.location.href= 'https://emergencycompliment.com/'" class="buttonLetter" title="Letter" ></button>
+            <button class="buttonC" title="Clock" onclick="openNavbuttons()"></button>
             <div class="right">
                 <!-- <button onClick="toggleFullscreen()" class="buttonFull" title="Full Screen"></button> -->
-                <button onclick="window.location.href= 'mood.html'" class="buttonHome" title="Home"></button>
-                <button onclick="window.location.href= 'https://www.animeforhumanity.org/'" class="buttonLogo" title="Anime for Humanity"></button>
+                <button onclick="window.location.href= 'https://emergencycompliment.com/'" class="buttonLetter" title="Letter" ></button>
+                <button onclick="openTab(this)" target="_blank" class="buttonLogo" name="../AnimeForHumanity/energetic/pdf/animePDF.pdf" title="Anime for Humanity"></button>
                 <button onclick="window.location.href= 'https://www.animeforhumanity.org/'" class="buttonCoffee" title="Buy us coffee"></button>
                 <button class="buttonL" title="To Do" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"></button>
             </div>
          </div>
    
          <div class="collapse multi-collapse designSound" id="multiCollapseExample1">                
-            <div class="soundwrapper">
-                <div class="thundercenter">
-                    <div class ="thundergif">
-                        <button class="btnthunder"></button>
-                    </div>
-                    <div class="thunder-details">
-                        <p class="thunder-name"></p>
-                    </div>
-
-                    <div class="thundercontrols">
-                        <div class="thunder-play-pause">
-                        <i class="thunder material-icons play">play_arrow</i>
-                        </div>
-                    </div>
-                </div>            
-                <audio id="thunder-main-audio" src=""></audio>          
-                <div class="thunder-music-list">
-                </div>
-                <div class="thunderbar">
-                    <img class="thundervolumepic" src="../AnimeForHumanity/energetic/energetic_pic/thunder-sound.png" alt="thunderSounds">
-                    <div class="thunder-volume-slider-con">
-                        <div class="thunder-volume-slider"></div>
-                    </div>              
-                </div>
-                <div class="citycenter">
-                    <div class ="citygif">
-                        <button class="btncity"></button>
-                    </div>
-                    <div class="city-details">
-                        <p class="city-name"></p>
-                    </div>
-
-                    <div class="citycontrols">
-                        <div class="city-play-pause">
-                        <i class="city material-icons play">play_arrow</i>
-                        </div>
-                    </div>
-                </div>            
-                <audio id="city-main-audio" src=""></audio>          
-                <div class="city-music-list">
-                </div>
-                <div class="citybar">
-                    <img class="cityvolumepic" src="../AnimeForHumanity/energetic/energetic_pic/city-sound.png" alt="oceanSounds">
-                    <div class="city-volume-slider-con">
-                        <div class="city-volume-slider"></div>
-                    </div>              
-                </div>
-                <div class="oceancenter">
-                    <div class ="oceangif">
-                        <button class="btnocean"></button>
-                    </div>
-                    <div class="ocean-details">
-                        <p class="ocean-name"></p>
-                    </div>
-
-                    <div class="oceancontrols">
-                        <div class="ocean-play-pause">
-                        <i class="ocean material-icons play">play_arrow</i>
-                        </div>
-                    </div>
-                </div>            
-                <audio id="ocean-main-audio" src=""></audio>          
-                <div class="ocean-music-list">
-                </div>
-                <div class="oceanbar">
-                    <img class="oceanvolumepic" src="../AnimeForHumanity/energetic/energetic_pic/ocean-sound.png" alt="oceanSounds">
-                    <div class="ocean-volume-slider-con">
-                        <div class="ocean-volume-slider"></div>
-                    </div> 
-                </div>
-                <div class="birdcenter">
-                    <div class ="birdgif">
-                        <button class="btnbird"></button>
-                    </div>
-                    <div class="bird-details">
-                        <p class="bird-name"></p>
-                    </div>
-
-                    <div class="birdcontrols">
-                        <div class="bird-play-pause">
-                        <i class="bird material-icons play">play_arrow</i>
-                        </div>
-                    </div>
-                </div>            
-                <audio id="bird-main-audio" src=""></audio>          
-                <div class="bird-music-list">
-                </div>
-                <div class="birdbar">
-                    <img class="birdvolumepic" src="../AnimeForHumanity/energetic/energetic_pic/bird-sound.png" alt="birdSounds">
-                    <div class="bird-volume-slider-con">
-                        <div class="bird-volume-slider"></div>
-                    </div>              
-                </div>
-            </div>
+            
          </div>
 
          <div class="collapse multi-collapse designBack" id="multiCollapseExample2">                
@@ -303,7 +196,6 @@
           <script src = "energetic/todo.js"></script>
           <script src = "energetic/background.js"></script>
           <script src="energetic/clock.js"></script>  
-          <script src="energetic/sounds.js"></script>
           <script src="energetic/loader.js"></script>
 
     
