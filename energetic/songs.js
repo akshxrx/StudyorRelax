@@ -1,43 +1,42 @@
 let allMusic = [
-    {
-      name: "Queen of Broken Hearts",
-      artist: "Black Bear",
-      src: 'brokenHearts'
-    },
-    {
-      name: "The catcher in the Rye",
-      artist: "Elephanz",
-      src: 'catcherRye'
-    },
-    {
-      name: "I hear a Symphony",
-      artist: "Supremes",
-      src: 'symphony'
-    },
-    {
-      name: "Washing Machine Heart",
-      artist: "Mitski",
-      src: 'washingMachine'
-    },
-    {
-      name: "I cant handle change",
-      artist: "ROAR",
-      src: 'handleChange'
-    },
-    {
-      name: "Where's my love?",
-      artist: "SYML",
-      src: 'myLove'
-    },
-    {
-      name: "Another Love",
-      artist: "Tom Odell",
-      src: 'anotherLove'
-    },
-    {
-      name: "Outrunning Karma",
-      artist: "Alec Benjamin",
-      src: 'outrunningKarma'
-    },
-   
+      {
+        name: "Medicine",
+        artist: "Artist vs Poet",
+        src: 'Medicine'
+      },
+      {
+        name: "Now you know",
+        artist: "Jonah Green",
+        src: 'nowYouKnow'
+      },
+      {
+        name: "Boy like Me",
+        artist: "New Medicine",
+        src: 'boyLikeMe'
+      },
+      {
+        name: "Doctor",
+        artist: "Truslow",
+        src: 'Doctor'
+      },
+      {
+        name: "Bad Habits",
+        artist: "The Federal Empire",
+        src: 'badHabits'
+      },
+      {
+        name: "Everywhere I go",
+        artist: "New Politics",
+        src: 'everywhereIgo'
+      },
+      {
+        name: "Popstar",
+        artist: "New Hollow",
+        src: 'popstar'
+      },
+      {
+        name: "Aristrocrat",
+        artist: "New Politics",
+        src: 'aristocrat'
+      },
   ];
