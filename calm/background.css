@@ -1,0 +1,106 @@
+.background-options {
+  display: flex;
+  justify-content: left;
+  align-content: left;
+  margin-top: 0.6em;
+  margin-left: 0.7em;
+}
+
+.background-optionsTwo {
+  display: flex;
+  justify-content: left;
+  align-content: left;
+  margin-top: 0.4em;
+  margin-left: 0.7em;
+}
+
+.background {
+  margin: 0em 0.55em 0;
+  width: 14em;
+  height: 9em;
+  cursor: pointer;
+}
+
+#sunset {
+  background-image: url("../calm/backgrounds/sunset.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0em;
+  -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+}
+
+#sunset:hover {
+  border-color: #ffffff;
+  box-shadow: 0 0 1em rgb(255, 255, 255);
+}
+
+#youName {
+  background-image: url("../calm/backgrounds/youName.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0em;
+  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);
+}
+
+#youName:hover {
+  border-color: #ffffff;
+  box-shadow: 0 0 1em rgb(255, 255, 255);
+}
+
+#blood {
+  background-image: url("../calm/backgrounds/blood.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0em;
+  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);
+}
+
+#blood:hover {
+  border-color: #ffffff;
+  box-shadow: 0 0 1em rgb(255, 255, 255);
+}
+
+#cherry {
+  background-image: url("../calm/backgrounds/cherry.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0em;
+  -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+}
+
+#cherry:hover {
+  border-color: #ffffff;
+  box-shadow: 0 0 1em rgb(255, 255, 255);
+}
+
+#night {
+  background-image: url("../calm/backgrounds/night.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0em;
+  -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+}
+
+#night:hover {
+  border-color: #ffffff;
+  box-shadow: 0 0 1em rgb(255, 255, 255);
+}
+
+#black {
+  background-image: url("../calm/backgrounds/weathering.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0em;
+  -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(90%);
+}
+
+#black:hover {
+  border-color: #ffffff;
+  box-shadow: 0 0 1em rgb(255, 255, 255);
+}

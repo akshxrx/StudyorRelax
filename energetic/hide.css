@@ -1,6 +1,6 @@
 .designSound{
-    height:20.5em;
-    width:47em;
+    height:19em;
+    width:22em;
     background-color: rgba(23, 23, 23, 0.381);
     position:absolute;
     margin-top: 3.6em;
@@ -17,6 +17,17 @@
     position:absolute;
     margin-top: 3.6em;
     margin-left: 1em;
+    z-index:1;
+}
+
+.designLetter{
+    height:36em;
+    width:25em;
+    /* background-color: rgb(23, 23, 23); */
+    /* background-color: rgba(255, 255, 255, 0.381); */
+    position:absolute;
+    margin-top: 4em;
+    right: 11.8em;
     z-index:1;
 }
 

@@ -1,0 +1,29 @@
+.designSound{
+    height:19em;
+    width:22em;
+    background-color: rgba(23, 23, 23, 0.381);
+    position:absolute;
+    margin-top: 3.6em;
+    margin-left: 1em;
+    z-index:2;
+}
+
+.designBack{
+    height:20.5em;
+    width:47em;
+    background-color: rgba(23, 23, 23, 0.381);
+    /* background-color: rgb(23, 23, 23); */
+    /* background-color: rgba(255, 255, 255, 0.381); */
+    position:absolute;
+    margin-top: 3.6em;
+    margin-left: 1em;
+    z-index:1;
+}
+
+.designList{
+    background-color: transparent;
+    position:absolute;
+    margin-top: 4em;
+    right:2em;
+    z-index:1;
+}

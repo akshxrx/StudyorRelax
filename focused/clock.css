@@ -1,0 +1,37 @@
+.headOne{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(255, 255, 255, 0.878);
+    font-size: 1.3em;
+    margin-left:3em;
+    z-index:2;
+	margin-top: 0em;
+
+}
+
+.headOne:hover{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1.3em;
+    z-index: 2;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #878586, 0 0 40px #878586, 0 0 50px #878586, 0 0 60px #878586, 0 0 70px #878586;
+	}
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #f1dbe6, 0 0 40px #f1dbe6, 0 0 50px #f1dbe6, 0 0 60px #f1dbe6, 0 0 70px #f1dbe6, 0 0 80px #f1dbe6;
+	}
+}
+
+.dbl{
+  margin-left:1.5em;
+  font-size: 0.95em;
+
+}
+
+

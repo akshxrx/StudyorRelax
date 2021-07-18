@@ -1,0 +1,139 @@
+/* -------------------------------------- */
+.btnbird {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+  margin-left: 2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+  background-image: url("../energetic/energetic_pic/birds.png");
+  background-size: cover;
+  background-color: transparent;
+  border: 0px;
+  transition: transform 0.2s;
+}
+
+.btnbird:hover {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+  width: 1.6em;
+  height: 1.6em;
+  margin-right: 0.5em;
+  margin-left: 2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+  background-image: url("../energetic/energetic_pic/birds.png");
+  background-size: cover;
+  background-color: transparent;
+  border: 0px;
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.bird-details {
+  text-align: left;
+  margin: 0.4em 0 0em;
+  justify-content: left;
+}
+
+.bird-details p {
+  color: var(--white);
+}
+.bird-details .bird-name {
+  font-size: 1.15em;
+}
+
+.birdcontrols {
+  margin: 1.25em 0 0;
+  margin-left: 0.8em;
+}
+.birdcontrols i {
+  user-select: none;
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.birdcontrols i:nth-child(1) {
+  font-size: 1.29em;
+}
+
+.birdcontrols .bird-play-pause {
+  height: 0;
+  width: 0;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgb(253, 253, 253);
+}
+
+.bird-play-pause::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: inherit;
+  background: transparent;
+}
+
+.bird-play-pause i {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: inherit;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+}
+
+.birdcenter {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+/* ------------------- */
+
+.birdbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+.birdvolumepic {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+  height: 0.8em;
+  margin-right: 0.5em;
+  margin-left: 0.8em;
+  background: transparent;
+}
+
+.bird-volume-slider-con {
+  height: 0.18em;
+  width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.767);
+  border-radius: 1em;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.bird-volume-slider {
+  position: relative;
+  background-color: red;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+/* -------------------------- */
