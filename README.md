@@ -29,7 +29,7 @@ What each button does? I promise you, it does not download a virus lol
 
 **Double click** on screen to enter full screen
 
-Double click to exit as well
+**Double click** on screen to exit as well
 ** ** 
 ![instruction](https://github.com/akshxrx/StudyorRelax/blob/main/5.JPG)
 
