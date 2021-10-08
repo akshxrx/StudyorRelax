@@ -14,8 +14,6 @@ My linkedin <3 https://www.linkedin.com/in/akshara-debnath-7085091b5/ <3
 
 ^ feel free to reach out to me on linkedin xD
 
-I am looking for 2022 summer internship!!
-
 ** **
 
 ![start](https://github.com/akshxrx/StudyorRelax/blob/main/3.JPG)
