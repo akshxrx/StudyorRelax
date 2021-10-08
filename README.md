@@ -27,9 +27,7 @@ My linkedin <3 https://www.linkedin.com/in/akshara-debnath-7085091b5/ <3
 ## Instructions
 What each button does? I promise you, it does not download a virus lol
 
-**Double click** on screen to enter full screen
-
-**Double click** on screen to exit as well
+**Double click** on screen to enter full screen ; **Double click** on screen to exit as well
 ** ** 
 ![instruction](https://github.com/akshxrx/StudyorRelax/blob/main/5.JPG)
 
