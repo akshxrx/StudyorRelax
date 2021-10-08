@@ -16,20 +16,20 @@ My linkedin <3 https://www.linkedin.com/in/akshara-debnath-7085091b5/ <3
 
 ** **
 
-![start](https://github.com/akshxrx/StudyorRelax/blob/main/3.JPG)
-![middle](https://github.com/akshxrx/StudyorRelax/blob/main/2.JPG)
-![last](https://github.com/akshxrx/StudyorRelax/blob/main/1.JPG)
+![start](https://github.com/akshxrx/StudyorRelax/blob/main/pics/3.JPG)
+![middle](https://github.com/akshxrx/StudyorRelax/blob/main/pics/2.JPG)
+![last](https://github.com/akshxrx/StudyorRelax/blob/main/pics/1.JPG)
 ** **
 **Hover on the nav-bar icons for a surprise and more tools to help you focus!! BD**
 ** ** 
-![last2](https://github.com/akshxrx/StudyorRelax/blob/main/4.JPG)
+![last2](https://github.com/akshxrx/StudyorRelax/blob/main/pics/4.JPG)
 ** **
 ## Instructions
 What each button does? I promise you, it does not download a virus lol
 
 **Double click** on screen to enter full screen ; **Double click** on screen to exit as well
 ** ** 
-![instruction](https://github.com/akshxrx/StudyorRelax/blob/main/5.JPG)
+![instruction](https://github.com/akshxrx/StudyorRelax/blob/main/pics/5.JPG)
 
 
 
