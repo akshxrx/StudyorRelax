@@ -7,27 +7,27 @@ let nightbutton = document.querySelector('#night');
 let blackbutton = document.querySelector('#black'); 
 
 sunsetButton.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/sunset.gif')"; 
+    document.body.style.backgroundImage = "url('../StudyorRelax/energetic/backgrounds/sunset.gif')"; 
 })
 
 youNamebutton.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic//backgrounds/youName.gif')"; 
+    document.body.style.backgroundImage = "url('../StudyorRelax/energetic//backgrounds/youName.gif')"; 
 })
 
 bloodbutton.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic//backgrounds/blood.gif')"; 
+    document.body.style.backgroundImage = "url('../StudyorRelax/energetic//backgrounds/blood.gif')"; 
 })
 
 cherrybutton.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/cherry.gif')"; 
+    document.body.style.backgroundImage = "url('../StudyorRelax/energetic/backgrounds/cherry.gif')"; 
 })
 
 nightbutton.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/night.gif')"; 
+    document.body.style.backgroundImage = "url('../StudyorRelax/energetic/backgrounds/night.gif')"; 
 })
 
 blackbutton.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('../AnimeForHumanity/energetic/backgrounds/weathering.gif')"; 
+    document.body.style.backgroundImage = "url('../StudyorRelax/energetic/backgrounds/weathering.gif')"; 
 })
 
 let fullS = document.getElementsByClassName("buttonFull");
@@ -42,7 +42,7 @@ function getFullscreenElement() {
 function toggleFullscreen() {
     if (getFullscreenElement()) {
         document.exitFullscreen();
-        fulls.setAttribute('src', "../AnimeForHumanity/energetic/icon/exit.png")
+        fulls.setAttribute('src', "../StudyorRelax/energetic/icon/exit.png")
     } else {
         document.documentElement.requestFullscreen().catch(console.log);
     }

@@ -7,32 +7,32 @@ let blackbutton = document.querySelector("#black");
 
 sunsetButton.addEventListener("click", () => {
   document.body.style.backgroundImage =
-    "url('../AnimeForHumanity/focused/backgrounds/sunset.gif')";
+    "url('../StudyorRelax/focused/backgrounds/sunset.gif')";
 });
 
 youNamebutton.addEventListener("click", () => {
   document.body.style.backgroundImage =
-    "url('../AnimeForHumanity/focused//backgrounds/youName.gif')";
+    "url('../StudyorRelax/focused//backgrounds/youName.gif')";
 });
 
 bloodbutton.addEventListener("click", () => {
   document.body.style.backgroundImage =
-    "url('../AnimeForHumanity/focused//backgrounds/blood.gif')";
+    "url('../StudyorRelax/focused//backgrounds/blood.gif')";
 });
 
 cherrybutton.addEventListener("click", () => {
   document.body.style.backgroundImage =
-    "url('../AnimeForHumanity/focused/backgrounds/cherry.gif')";
+    "url('../StudyorRelax/focused/backgrounds/cherry.gif')";
 });
 
 nightbutton.addEventListener("click", () => {
   document.body.style.backgroundImage =
-    "url('../AnimeForHumanity/focused/backgrounds/night.gif')";
+    "url('../StudyorRelax/focused/backgrounds/night.gif')";
 });
 
 blackbutton.addEventListener("click", () => {
   document.body.style.backgroundImage =
-    "url('../AnimeForHumanity/focused/backgrounds/weathering.gif')";
+    "url('../StudyorRelax/focused/backgrounds/weathering.gif')";
 });
 
 let fullS = document.getElementsByClassName("buttonFull");
@@ -49,7 +49,7 @@ function getFullscreenElement() {
 function toggleFullscreen() {
   if (getFullscreenElement()) {
     document.exitFullscreen();
-    fulls.setAttribute("src", "../AnimeForHumanity/focused/icon/exit.png");
+    fulls.setAttribute("src", "../StudyorRelax/focused/icon/exit.png");
   } else {
     document.documentElement.requestFullscreen().catch(console.log);
   }

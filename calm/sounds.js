@@ -20,7 +20,7 @@ window.addEventListener("load", ()=>{
 
 function thunderloadMusic(indexNumb){
   thunderName.innerText = "Thunder";
-  thundermainAudio.src = `../AnimeForHumanity/calm/sounds/thunder.mp3`;
+  thundermainAudio.src = `../StudyorRelax/calm/sounds/thunder.mp3`;
 }
 
 //play music function
@@ -43,10 +43,10 @@ thunderplayPauseBtn.addEventListener("click", ()=>{
   const thunderisMusicPlay = soundwrapper.classList.contains("paused");
   // if (thunderisMusicPlay) {
   //   thunderpauseMusic();
-  //   document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/med-back.gif')";    //code for toggling the background image when pressed on the sound
+  //   document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/med-back.gif')";    //code for toggling the background image when pressed on the sound
   // } else {
   //   thunderplayMusic();
-  //   document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/thunder-back.gif')"; 
+  //   document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/thunder-back.gif')"; 
   // }
   thunderisMusicPlay ? thunderpauseMusic() : thunderplayMusic();
 });
@@ -59,7 +59,7 @@ for (let i = 0; i < 1; i++) {
                 <div class="row">
                   <span>Thunder</span>
                 </div>
-                <audio class="thunder" src="../AnimeForHumanity/calm/sounds/thunder.mp3"></audio>
+                <audio class="thunder" src="../StudyorRelax/calm/sounds/thunder.mp3"></audio>
               </li>`;
   
 }
@@ -105,7 +105,7 @@ var thunderupdateBar = function (thunderx, thundervol) {
 
 
 thunderbtn.addEventListener('click', () => {
-  document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/thunder-back.gif')"; 
+  document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/thunder-back.gif')"; 
 })
 
 // -----------------------------------------------------------------------------------------------------
@@ -130,7 +130,7 @@ window.addEventListener("load", ()=>{
 
 function cityloadMusic(){
   cityName.innerText = "City";
-  citymainAudio.src = `../AnimeForHumanity/calm/sounds/city.mp3`;
+  citymainAudio.src = `../StudyorRelax/calm/sounds/city.mp3`;
 }
 
 //play music function
@@ -153,10 +153,10 @@ cityplayPauseBtn.addEventListener("click", ()=>{
   const cityisMusicPlay = soundwrapper.classList.contains("paused");
   // if (cityisMusicPlay) {
   //   citypauseMusic();
-  //   document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/med-back.gif')"; 
+  //   document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/med-back.gif')"; 
   // } else {
   //   cityplayMusic();
-  //   document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/city-back.gif')"; 
+  //   document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/city-back.gif')"; 
   // }
   cityisMusicPlay ? citypauseMusic() : cityplayMusic();
 });
@@ -169,7 +169,7 @@ for (let i = 0; i < 1; i++) {
                 <div class="row">
                   <span>City</span>
                 </div>
-                <audio class="city" src="../AnimeForHumanity/calm/sounds/city.mp3"></audio>
+                <audio class="city" src="../StudyorRelax/calm/sounds/city.mp3"></audio>
               </li>`;
   
 }
@@ -214,7 +214,7 @@ var cityupdateBar = function (cityx, cityvol) {
 };
 
 citybtn.addEventListener('click', () => {
-  document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/city-back.gif')"; 
+  document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/city-back.gif')"; 
 })
 
 // -----------------------------------------------------------------------------------------------------
@@ -239,7 +239,7 @@ window.addEventListener("load", ()=>{
 
 function oceanloadMusic(){
   oceanName.innerText = "Ocean";
-  oceanmainAudio.src = `../AnimeForHumanity/calm/sounds/ocean.mp3`;
+  oceanmainAudio.src = `../StudyorRelax/calm/sounds/ocean.mp3`;
 }
 
 //play music function
@@ -278,7 +278,7 @@ for (let i = 0; i < 1; i++) {
                 <div class="row">
                   <span>Ocean</span>
                 </div>
-                <audio class="ocean" src="../AnimeForHumanity/calm/sounds/ocean.mp3"></audio>
+                <audio class="ocean" src="../StudyorRelax/calm/sounds/ocean.mp3"></audio>
               </li>`;
   
 }
@@ -323,7 +323,7 @@ var oceanupdateBar = function (oceanx, oceanvol) {
 };
 
 oceanbtn.addEventListener('click', () => {
-  document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/ocean-back.gif')"; 
+  document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/ocean-back.gif')"; 
 })
 
 // -----------------------------------------------------------------------------------------------------
@@ -348,7 +348,7 @@ window.addEventListener("load", ()=>{
 
 function birdloadMusic(){
   birdName.innerText = "Birds";
-  birdmainAudio.src = `../AnimeForHumanity/calm/sounds/birds.mp3`;
+  birdmainAudio.src = `../StudyorRelax/calm/sounds/birds.mp3`;
 }
 
 //play music function
@@ -387,7 +387,7 @@ for (let i = 0; i < 1; i++) {
                 <div class="row">
                   <span>Birds</span>
                 </div>
-                <audio class="bird" src="../AnimeForHumanity/calm/sounds/birds.mp3"></audio>
+                <audio class="bird" src="../StudyorRelax/calm/sounds/birds.mp3"></audio>
               </li>`;
   
 }
@@ -432,7 +432,7 @@ var birdupdateBar = function (birdx, birdvol) {
 };
 
 birdbtn.addEventListener('click', () => {
-  document.body.style.backgroundImage = "url('../AnimeForHumanity/calm/calm_pic/birds-back.gif')"; 
+  document.body.style.backgroundImage = "url('../StudyorRelax/calm/calm_pic/birds-back.gif')"; 
 })
 
 // ------------------------------------------------------------------------------------------

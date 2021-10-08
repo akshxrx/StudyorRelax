@@ -29,7 +29,7 @@ window.addEventListener("load", () => {
 function loadMusic(indexNumb) {
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
-  mainAudio.src = `../AnimeForHumanity/focused/songs/${
+  mainAudio.src = `../StudyorRelax/focused/songs/${
     allMusic[indexNumb - 1].src
   }.mp3`;
 }
@@ -188,7 +188,7 @@ for (let i = 0; i < allMusic.length; i++) {
                 <span id="${allMusic[i].src}" class="audio-duration">3:40</span>
                 <audio class="${
                   allMusic[i].src
-                }" src="../AnimeForHumanity/focused/songs/${
+                }" src="../StudyorRelax/focused/songs/${
     allMusic[i].src
   }.mp3"></audio>
               </li>`;
